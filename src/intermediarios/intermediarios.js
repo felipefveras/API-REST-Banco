@@ -1,4 +1,4 @@
-const { banco } = require('./bancodedados')
+const { banco } = require('../bancodedados')
 
 const verificarSenha = function (req, res, next) {
     const { senha_banco } = req.query

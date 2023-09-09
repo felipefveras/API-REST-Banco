@@ -1,8 +1,8 @@
 const express = require('express')
 const rotas = express()
-const app = require('./servidor')
+const app = require('../servidor')
 
-const verificarSenha = require('./intermediarios')
+const verificarSenha = require('../intermediarios/intermediarios')
 const listarContas = require('../controladores/listarContas')
 const adicionarConta = require('../controladores/adicionarConta')
 const atualizarConta = require('../controladores/atualizarConta')
